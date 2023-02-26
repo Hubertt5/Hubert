@@ -36,6 +36,8 @@ const quizData = [
     question: "Czy uczniowie mają dobry kontakt z nauczycielami?",
     a: "Tak",
     b: "Nie",
+    c: "Nie",
+    d: "Nie",
     correct: "a",
   },
 ];
