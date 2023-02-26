@@ -35,7 +35,7 @@ document.querySelector("#submit").addEventListener(
       index++;
       loadQuestion();
     } else {
-      alert("Please Select One Option.");
+      alert("Zaznacz odpowiedź.");
     }
   },
 );
@@ -63,7 +63,7 @@ const quizEnd = () => {
             <h3 class="w-100" style="text-align:center;"> 
             Masz ${correct} poprawnych odpowiedzi na ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="../images/lowscore.jpg" alt="image" height="300">
+                Na pewno chodzisz do tej szkoły?
             </div>
             <h4 class="w-100" style="text-align:center;"> 
             <a href="../index.html" style="text-decoration:none;">Wróć</a></h4>
@@ -76,7 +76,7 @@ const quizEnd = () => {
         <h3 class="w-100" style="text-align:center;"> 
         Masz ${correct} poprawnych odpowiedzi na ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="../images/midscore.jpg" alt="image" height="300">
+                
             </div>
             <h4 class="w-100" style="text-align:center;"> 
             <a href="../index.html" style="text-decoration:none;">Wróć</a></h4>
@@ -89,7 +89,7 @@ const quizEnd = () => {
         <h3 class="w-100" style="text-align:center;"> 
         Masz ${correct} poprawnych odpowiedzi na ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="../images/highscore.jpg" alt="image" height="300">
+               
             </div>
             <h4 class="w-100" style="text-align:center;"> 
             <a href="../index.html" style="text-decoration:none;">Wróć</a></h4>
