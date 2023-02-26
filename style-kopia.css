@@ -282,9 +282,9 @@ h2 {
     font-weight: 400;
     margin: 2rem;
     padding: 2rem;
-    border-top: .2rem solid rgb(8, 17, 139);
+    border-top: .2rem solid rgba(55, 63, 165, 0.688);
     text-transform: capitalize;
-    background: rgb(69, 68, 165);
+    background: rgba(93, 91, 199, 0.729);
 }
 
 @media(max-width:768px){
