@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubert</title>
+   
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>Hubert</span></a>
+
+    <nav class="navbar">
+        <a href="index.html">O Mnie</a>
+        <a href="plany.html">Co oferuję</a>
+        <a href="quiz.html">Quizy</a>
+        <a href="http://hubertkandydat.rf.gd/?i=1">Komentarze</a>
+    </nav>
+
+    <div class="icons">
+        <i id="menu-btn" class="fas fa-bars"></i>
+    </div>
+</header>
+       
+<h2><b>Co oferuję</b></h2>
+            <li>Zorganizowanie dni zawodowych</li>
+      <li>Więcej wycieczek szkolnych </li>
+      <li>Więcej atrakcji w szkole i poza nią</li>
+      <li>Zorganizowanie ,,Mam Talent"</li>
+      <li>Wprowadzenia dnia ,,Bez pytania"</li>
+      <li> Dyskoteki szkolne  </li>
+      <li> Tematyczne dni   </li>
+           <br> <br>
+            <div id="references">
+          <div class="mySlides fade">
+            <div class="feedbacks"> 
+              <p><h2>Wprowadzenie ,,Dnia bez pytania"</h2>
+                <br><a>Polega to na wrpowadzeniu jednego dnia w miesiącu w którym nauczyciele nie będą mogli pytać uczniów, ponieważ branie do odpowiedzi jest dla ucznia bardzo stresujące. Udowodniono iż stres nie jest dobry i może skracać życie.</a><datagrid></datagrid><br></p>
+           </div>
+          </div>
+        
+        <div class="mySlides fade">
+          <div class="feedbacks">
+             <p> <h2>Organizowanie Imprez oraz Balów</h2>
+               <br><a>Odkąd chodzę do tej szkoły nie było żadnej dyskoteki. Każdy lubi dobrą zabawę dlatego każdy powinien też móc zabaiwić się w szkole.
+                 Zamierzam organizować imprezy szkolne.</a><datagrid></datagrid><br></p>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="feedbacks">
+             <p><h2>Otworzenie kawiarni w budynku szanjcy 5</h2>
+              <br><a>
+                <datagrid>
+W Budynku na szanjcy 5 jest mijece w którym kiedyś był sklepik. W tym budynku nie ma stołówki więc
+postaram się zastąpić ją kawiarenką do której każdy będzie mógł przyjść, zjeść jak i odpocząć.
+
+                </datagrid>
+              </a></p>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="feedbacks">
+             <p><h2>Zorganizowanie ,,Mam Talent" </h2>
+              <br><a> <datagrid>
+Zapewne w naszej szkole kryje się wiele talentów o których nie wiemy.
+Można to zmienić. Każdy będzie mógł się zgłosić i zaprezentować swoje umiejętności.
+              </datagrid> </a>
+              </p>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="feedbacks">
+             <p><h2>Więcej wycieczek szkolnych</h2>
+              <br><a>
+                <datagrid>
+                    Szkoła jest to miejsce w którym zdobywamy wiedzę. Powinniśmy też dzięki niej poznawać i odkrywać świat
+                    poprzez wycieczki. 
+                </datagrid>
+              </a></p>
+          </div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+          
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+            
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="proba.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond%7CLibre+Franklin" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,100;1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet"> 
+
+ 
+
+        <div class="credits">
+            <p>Hubert Kowalski</p>
+            <p>
+            <h2>Kandydat na przewodniczącego szkoły </h2>
+            </p>
+        </div>
+
+        <script src="./js/main.js"></script>
+
+</body>
+
+</html>
