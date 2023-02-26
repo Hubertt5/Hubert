@@ -151,6 +151,7 @@ header .logo span{
     font-size: 2.5rem;
     font-weight: bolder;
     color:rgb(255, 255, 255);
+    height: 100px;
 }
 
 header .navbar a{
@@ -241,10 +242,10 @@ section{
     padding: 0;
 }
 .banner{
-    position: relative;
+ 
     width:100%;
     height: 100vh;
-    display: flex;
+  
     align-items: center;
     justify-content: center;
 }
@@ -261,12 +262,12 @@ section{
 
 .heading{    
     color:rgba(6, 14, 96, 0.925);
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.516);
     padding: 30px;
     width:100%;
-    align-items: center;
+  
     text-align: center;
 }
 
