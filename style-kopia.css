@@ -145,11 +145,18 @@ section{
     object-fit: cover;
     z-index: -2;
 }
-
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1.25;
+    margin: 3rem 0;
+    color:#3656d8 ;
+  }
 .heading{    
-    color:rgba(63, 6, 96, 0.925);
-    font-size: 3rem;
-    font-weight: 600;
+    color:rgba(14, 6, 96, 0.925);
+    font-size: 4rem;
+    font-weight: 900;
     background-color: rgba(255, 255, 255, 0.516);
     padding: 30px;
     width:100%;
